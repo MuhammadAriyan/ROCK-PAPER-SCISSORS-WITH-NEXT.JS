@@ -29,7 +29,7 @@ const RPSgame = () => {
     computerPlay();
 
     let ab = 0
-    let interval = setInterval(() => {
+    const interval = setInterval(() => {
       setCImage(`/paper.png`);
       if(ab>10 && 20>ab)setCImage(`/rock.png`);
       if(ab>20 && 30>ab)setCImage(`/scissors.png`);
